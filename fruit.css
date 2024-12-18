@@ -1,0 +1,262 @@
+*{
+  border: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+}
+.navbar{
+  background-color: black;
+  display: flex;
+  margin: 0px;
+  padding: 10px;
+  justify-content: space-between;
+  
+}
+.Home-link a{
+  color: white;
+  text-decoration: none;
+
+}
+
+#nav-section nav ul{
+  justify-content:space-around;
+  gap: 20px;
+  color: bisque;
+  display: flex;
+  
+}
+#nav-section nav ul li{
+  list-style: none;
+  gap: 20px;
+  
+}
+#nav-section nav ul li a{
+  text-decoration: none;
+  transition: transform 0.5s ease;
+  color: blue;
+  display: inline-block;
+  margin-right: 30px;
+}
+#nav-section nav ul li a:hover{
+  color: brown;
+  transform: scale(1.05);
+}
+.search{
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  border-radius: 28px;
+  background-color: aliceblue;
+}
+.search-input{
+  font-size: 16px;
+  margin-left: 14px;
+  color: #333333;
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 80px;
+}
+.content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 14px;
+  align-items: center;
+    
+}
+.product{
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+
+}
+button{
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 90px;
+  padding: 11px;
+  cursor: pointer;
+  color: red;
+  
+  
+}
+button:hover{
+  background-color:aqua;
+}
+h4, h5{
+  text-align: center;
+}
+h5{ 
+  color: blue;
+}
+.product:hover{
+  transform: scale(1.05);
+  
+}
+
+
+img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.newsletter{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border: 1px solid; 
+  height: auto;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+  background-image: url(images/button.jpg);
+}
+#newsimage{
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  width: 40%;  
+  border: 1px  ; 
+  padding: 0; 
+  margin: 0;
+  height: auto;
+  box-sizing: border-box;
+}
+#newsimage img{
+  width: 500px;
+  height: 400px;
+  padding: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+#newscontact{
+  flex-wrap: wrap;
+  padding: 15px;
+  margin: 0px;
+  border: 1px solid;
+  
+}
+.address input{
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  max-width:  auto;
+  display: flex;
+  margin: 10px auto;
+  justify-content: center ;
+}
+.btn-signup{
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  align-items: center;
+  
+
+}
+.btn-signup button{
+  background-color:aqua;
+
+}
+
+
+
+.description{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  background-color: bisque;
+  padding: 9px;
+}
+.description h6{
+  font-size: large;
+  align-items: center;
+  text-align: center;
+}
+.services{
+  margin-top: 30px;
+  padding: 10px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+.services ul li{
+  list-style: none;
+}
+.services ul li a{
+  text-decoration: none;
+}
+.services ul li a:hover{
+  background-color: chartreuse;
+}
+.services h5{
+  font-size: larger;
+  font-weight: bolder;
+  text-decoration: underline double;
+}
+.services h6{
+  text-align: center;
+  font-size: large;
+}
+footer{
+  background-color:magenta;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+#terms{
+  gap: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+}
+#terms a{
+  text-decoration: none;
+  justify-content: space-between;
+}
+#terms a:hover{
+  color: floralwhite;
+
+}
+#media{
+  gap: 10px;
+  display: flex;
+  font-size: 20px;
+}
+
+/* @media screen and (max-width: 500px){
+  .content{
+    grid-template-columns: 1fr;
+
+  }
+} */
+@media screen and (max-width: 784px) {
+  .content{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .newsletter{
+    flex-direction: column;
+    text-align: center;
+  }
+  #newsimage, #newscontact{
+    width: 100%;
+  }
+  
+}

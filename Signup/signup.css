@@ -1,0 +1,60 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+html, body{
+  height: 100% !important;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+  background-image: url(signup.jpg); 
+}
+
+.SignUp{
+  padding: 16px;
+  text-align: center;
+  border: 1px solid;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: chartreuse;
+  height: 350px auto;
+  margin: 50px;
+    
+}
+h1{
+  top: 0;
+  margin-bottom: 15px;
+  color: violet;
+}
+button{
+  padding: 7px;
+  background-color:aqua;
+  border: 0px;
+  border-radius: 5px;
+  color:crimson;
+  cursor: pointer;
+  font-weight: bolder;
+}
+button:hover{
+  background-color:gold;
+}
+footer{
+  background-color: brown;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: larger;
+  
+}

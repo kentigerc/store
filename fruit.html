@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Store</title>
+  <link rel="stylesheet" href="fruit.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="navbar">
+    
+    <div class="Home-link">
+      <a href="#">Our Online Store</a>
+    </div>
+    <div class="search">
+      <span class="search-icon material-symbols-outlined">
+        search
+        </span>
+        <input class="search-input" type="search" placeholder="search">
+    </div>
+  
+    <div id="nav-section">
+      <nav>
+        <ul>
+         
+          <li><a href="#Best Sellers">Best Sellers</a></li>
+          <li><a href="#Sale">Sale</a></li>
+          <li><a href="login/login.html">login</a></li>
+          <li><a href="Signup/Signup.html" target="_self">SignUp</a></li>
+          <p id="demo"></p>
+          <script type="text/javascript">
+            setInterval(myFunction, 0);
+            function myFunction(){
+              const now = new Date();
+              document.getElementById("demo").innerHTML= now.toLocaleTimeString() + "<br>" + now.toLocaleDateString();
+            }
+
+          </script>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="content">
+    <div class="product">
+      <img src="fruit/fruit1.jpg" alt="fruit1">
+      <h4>product 1</h4>
+      <h5>$19.99</h5>
+      <button type="button" >Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="fruit/fruit2.jpg" alt="fruit2">
+      <h4>Product2</h4>
+      <h5>$21.99</h5>
+      <button type="button">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="fruit/fruit3.jpg" alt="fruit3">
+      <h4>product3</h4>
+      <h5>$20.00</h5>
+      <button type="button">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="fruit/fruit4.jpg" alt="fruit4">
+      <h4>product4</h4>
+      <h5>$13.90</h5>
+      <button type="button">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="fruit/fruit5.jpg" alt="fruit5">
+      <h4>product5</h4>
+      <h5>$17.00</h5>
+      <button type="button">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="fruit/fruit6.jpg" alt="fruit6">
+      <h4>product6</h4>
+      <h5>$14.00</h5>
+      <button type="button">Add to Cart</button>
+    </div>
+  </section>
+  <div class="video">
+    <video width="400px" height="350px" controls>
+      <source src="ken.mp4" type="video/mp4">
+    </video>
+  </div>
+  <section class="newsletter">
+    <section class="news-image">
+    <div id="newsimage">
+      <img src="images/fruit.jpg" alt="Receive News Letter">
+    </div>
+    </section>
+    
+    <section class="newsinfo">
+    <div id="newscontact">
+      <h1>Stay informed of the latest news from the market place</h1>
+      <p>Subscribe th our blog and receive free e-commerce tips, inspiration and tools directly in your inbox.</p>
+      <div class="address">
+        <input type="email" id="email" class="email" placeholder="enter you email">
+      </div>
+      <div class="btn-signup">
+        <button type="submit" >SignUp</button>
+      </div>
+      <h6>You can unsubscribe at any time. If you enter your email address, You agree to receive marketing messages from marketplace</h6>
+    </div>
+    </section>
+   
+  </section>
+  <section class="description">
+    <h6>The challenges of e-commerce companies</h6>
+    <p>Starting an online business sounds almost too good to be true. It has many advantages, but every one business model has challenges, e-commerce is no exception.</p>
+    <div id="security">
+      <h6>Security in e-commerce</h6>
+      <p>A major challenge in e-commerce is safety. Customers must be able to trust that their personal and financial information is safe when shopping online. E-commerce companies must invest in secure payment options, SSL certificates and other security measures to protect customer data. Note: Shopify subscriptions have security features such as SSL and secure payment options. Make sure that these security measures are clearly communicated to customers in your terms and conditions and on the checkout page.</p>
+    </div>
+    <div id="competition">
+      <h6>Increasing competition</h6>
+      <p>E-commerce is a very competitive sector, in which many companies fight for the same customers. Online companies must distinguish themselves through unique products, competitive prices and excellent customer service.</p>
+    </div>
+    <div id="shipping">
+      <h6>shipping and logistics</h6>
+      <p>A good shipper experience can determine the success of an e-commerce company. Online stores must have efficient shipping and logistics systems to ensure that products arrive to customers on time and in good condition.</p>
+    </div>
+    <div id="policy">
+      <h6>Return policy and customer service</h6>
+      <p>To keep customers happy, e-commerce companies need a good return policy and excellent customer service have to deal with questions and complaints. This can be especially difficult for companies that sell complex products or have few staff.</p>
+    </div>
+  </section>
+
+  <section class="services">
+    <h5>Access To Our Services</h5>
+    <div id="shopify">
+      <h6>Shopify</h6>
+      <ul>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Vacancies</a></li>
+      <li><a href="#">Investors</a></li>
+      <li><a href="#">Press and media</a></li>
+      <li><a href="#">Partners</a></li>
+      <li><a href="#">Affiliates</a></li>
+      <li><a href="#">Legal</a></li>
+      <li><a href="#">Service status</a></li>
+      </ul>
+    </div>
+    <div id="Support">
+      <h6>Support</h6>
+      <ul>
+        <li><a href="#">Support for merchants</a></li>
+        <li><a href="#">Help center</a></li>
+        <li><a href="#">Hire a partner</a></li>
+        <li><a href="#">Shopify Academy</a></li>
+        <li><a href="#">Shopify Community</a></li>
+      </ul>
+    </div>
+    <div id="Developers">
+      <h6>Developers</h6>
+      <ul>
+      <li><a href="#">Shopify.dev</a></li>
+      <li><a href="#">API documentation</a></li>
+      <li><a href="#">Dev Degree</a></li></ul>
+    </div>
+    <div id="products">
+      <h6>Products</h6>
+      <ul>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Shop pay</a></li>
+      <li><a href="#">Linkpop</a></li>
+      <li><a href="#">shopify for businesses</a></li>
+      </ul>
+    </div>
+    <div id="solutions">
+      <h6>Solutions</h6>
+      <ul>
+      <li><a href="#">Webshop builder</a></li>
+      <li><a href="#">Website builder</a></li>
+      </ul>
+    </div>
+
+  </section>
+  <footer>
+    <div id="terms">
+      <a href="#">Terms of Service</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Manage Privacy</a>
+    </div>
+    <div id="media">
+      <a href="https://www.x.com">
+      <i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="https://www.linkdin.com"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.snapchat.com"><i class="fa-brands fa-snapchat"></i></a>
+    </div>
+
+  </footer>
+  <!-- the message is displayed when you are using a browser that doesn't support Javascript -->
+  <noscript>
+    sorry...Javascript is neede to go ahead.
+  </noscript>
+  <button onclick="myFunction()">Go Back</button>
+  <script>
+    function myFunction(){
+      window.history.back();
+    }
+  </script>
+  <p><a href="tel:+25411345869">+25411345869</a></p>
+  <p><a href="mailto: john@gmail.com">ken@gmail.com</a></p>
+  <p>&copy</p>
+  <h3>Crispy Mozzarella Sticks <span class="price">$7.99</span></h3>
+</body>
+</html>
